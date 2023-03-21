@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.contrib.auth.context_processors.auth.authenticate" />
+          <option value="django.contrib.auth.context_processors.auth.login" />
+          <option value="dict.*" />
+          <option value="django.url" />
+          <option value="searchapp.views.objects" />
+          <option value="str.dict" />
+          <option value="cv2.imshow" />
+          <option value="cv2.imread" />
+          <option value="cv2.waitKey" />
+          <option value="cv2.destroyAllWindows" />
+          <option value="vehicle.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

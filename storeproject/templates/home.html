@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% include 'navbar.html' %}
+<div class="container mt-5">
+
+    <h1>School Stores Teach Lifelong Skills</h1>
+    <p><b><i><u>Additional source of income</u></i></b></p>
+    <br>
+     <img src="https://tbcdn.talentbrew.com/company/61/v2_0_Full/img/badge-stores.png" alt="schoolstore image">
+    <br>
+    <p><b>Opening a School Store can be an enormously rewarding experience, but also a daunting one. With a few simple steps you can help your students utilize classroom concepts in a real world setting and raise money for your school. Still not sure if you are up to the task, let Deluxe help.</b></p>
+
+
+    <a href="{% url 'login' %}"  class="btn btn-secondary">Purchase Now</a>
+</div>
+{% endblock %}
